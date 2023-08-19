@@ -34,6 +34,12 @@ int main()
      * FINAL SUBPROBLEM:                                                                             *
      * max {f(n, 1), f(n, 2), f(n, 3)};                                                              *
      *                                                                                               *
+     * TIME-COMPLEXITY:                                                                              *
+     * O(n)                                                                                          *
+     *                                                                                               *
+     * SPACE-COMPLEXITY:                                                                             *
+     * O(n)                                                                                          *
+     *                                                                                               *
      *************************************************************************************************/
     
     vector<vector<int>> f (n + 1, vector<int> (3 + 1));
