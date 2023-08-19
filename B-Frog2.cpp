@@ -29,6 +29,12 @@ void solve()
      * n = number of stone that the frog is at currently,                                                                                 *
      * h(n) = height of the current stone,                                                                                                *
      * f(n) = optimum number cost of reaching nth stone,                                                                                  *
+     *                                                                                                                                    *
+     * TIME-COMPLEXITY:                                                                                                                   *
+     * O(k*k + n*k) = O(n*k)                                                                                                              *
+     *                                                                                                                                    *
+     * SPACE-COMPLEXITY:                                                                                                                  *
+     * O(n)                                                                                                                               *
      **************************************************************************************************************************************/
      
     
